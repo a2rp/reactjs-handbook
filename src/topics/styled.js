@@ -10,6 +10,7 @@ export const Styled = {
         --card: #121622;
         --muted: #9aa3b2;
         --accent: #6366f1;
+        --expose: #0f0;
         background: var(--card);
         border: 1px solid #1c2333;
         border-radius: 14px;
@@ -72,13 +73,14 @@ export const Styled = {
         padding: 16px;
         font-size: 15px;
         h3 {
-            margin: 10px 0 8px;
+            margin: 15px 0 8px;
             font-size: 16px;
             color: #c7d2fe;
         }
         p,
         li {
             color: #e5e7eb;
+            margin-bottom: 30px;
         }
         ul {
             margin: 8px 0 14px 18px;
@@ -90,7 +92,7 @@ export const Styled = {
 
     Code: styled.pre`
         margin: 10px 0 16px;
-        padding: 14px 16px;
+        padding: 15px 16px;
         background: #0b0f19;
         border: 1px solid #1c2333;
         border-radius: 12px;
@@ -104,10 +106,11 @@ export const Styled = {
         &:before {
             content: "example";
             position: absolute;
-            top: -10px;
-            left: 10px;
+            top: -0px;
+            right: 10px;
             font-size: 11px;
-            color: var(--muted);
+            /* color: var(--muted); */
+            color: var(--expose);
             background: #0d0f14;
             padding: 2px 6px;
             border-radius: 6px;
