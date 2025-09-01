@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import ReactDefinition from "./topics/ReactDefinition";
+import ViteInstall from "./topics/ViteInstall";
 
 export default function ReactTutorial() {
     return (
@@ -20,7 +21,11 @@ export default function ReactTutorial() {
 
             <h1 style={{ marginTop: "30px" }}>My Notes</h1>
             <h3>last updated: Sep 01, 2025</h3>
+
+            <div className="divider"></div>
+            <h3>0. Setup & Local Dev</h3>
             <ReactDefinition />
+            <ViteInstall />
         </Styled.Wrapper>
     );
 }
@@ -39,5 +44,11 @@ const Styled = {
     line-height: 1.55;
     max-width: 900px;
     margin: auto;
+
+    .divider {
+        margin: 30px 15px;
+        height: 1px;
+        background-color: #333;
+    }
   `,
 };
