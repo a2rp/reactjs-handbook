@@ -2,6 +2,9 @@ import styled from "styled-components";
 import ReactDefinition from "./topics/ReactDefinition";
 import ViteInstall from "./topics/ViteInstall";
 import ProjectTree from "./topics/ProjectTree";
+import EditorSetup from "./topics/EditorSetup";
+import EnvFiles from "./topics/EnvFiles";
+import ImportExportBasics from "./topics/ImportExportBasics";
 
 export default function ReactTutorial() {
     return (
@@ -10,7 +13,7 @@ export default function ReactTutorial() {
             <fieldset
                 style={{ padding: "0 15px 15px 30px", marginBottom: 15 }}
             >
-                <legend style={{ padding: 15 }}>From Wikipedia - last updated: Sep 01, 2025</legend>
+                <legend style={{ padding: 15 }}>From Wikipedia - last updated: Sep 02, 2025</legend>
                 <p>
                     React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library that aims to make building user interfaces based on components more "seamless". It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.
                 </p>
@@ -21,13 +24,16 @@ export default function ReactTutorial() {
             </fieldset>
 
             <h1 style={{ marginTop: "30px" }}>My Notes</h1>
-            <h3>last updated: Sep 01, 2025</h3>
+            <h3>last updated: Sep 02, 2025</h3>
 
             <div className="divider"></div>
             <h3>0. Setup & Local Dev</h3>
             <ReactDefinition />
             <ViteInstall />
             <ProjectTree />
+            <EditorSetup />
+            <EnvFiles />
+            <ImportExportBasics />
         </Styled.Wrapper>
     );
 }
