@@ -2,8 +2,9 @@
 
 Bite-sized, expandable React notes that I actually use day-to-day—each topic is a small toggleable component with clear text and copy-paste code.
 
-**Live:** https://a2rp.github.io/reactjs-handbook/
-**Code:** https://github.com/a2rp/reactjs-handbook
+# **Live:** https://a2rp.github.io/reactjs-handbook/
+
+# **Code:** https://github.com/a2rp/reactjs-handbook
 
 ## What is this?
 
