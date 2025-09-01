@@ -4,6 +4,7 @@ import ReactDefinition from "./topics/ReactDefinition";
 export default function ReactTutorial() {
     return (
         <Styled.Wrapper>
+            <h1>ReactJS Handbook</h1>
             <fieldset
                 style={{ padding: "0 15px 15px 30px", marginBottom: 15 }}
             >
@@ -17,6 +18,8 @@ export default function ReactTutorial() {
                 </p>
             </fieldset>
 
+            <h1 style={{ marginTop: "30px" }}>My Notes</h1>
+            <h3>last updated: Sep 01, 2025</h3>
             <ReactDefinition />
         </Styled.Wrapper>
     );

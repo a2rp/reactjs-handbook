@@ -73,7 +73,7 @@ export const Styled = {
         padding: 16px;
         font-size: 15px;
         h3 {
-            margin: 15px 0 8px;
+            /* margin: 15px 0 8px; */
             font-size: 16px;
             color: #c7d2fe;
         }
