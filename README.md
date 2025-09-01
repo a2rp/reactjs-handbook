@@ -1,18 +1,31 @@
-![alt text](image.png)
+# ReactJS Handbook
 
-# react-vite-basic
+Bite-sized, expandable React notes that I actually use day-to-day—each topic is a small toggleable component with clear text and copy-paste code.
 
-Minimal starter using React 18.2 + Vite
+**Live:** https://a2rp.github.io/reactjs-handbook/
+**Code:** https://github.com/a2rp/reactjs-handbook
 
-## Features
+## What is this?
 
--   React 18.2.0
--   Vite
--   No React Router
+-   A growing handbook of micro-topics (definition, Vite setup, JSX rules, state, effects, routing, performance, etc.).
+-   Each topic is a single React component with a clickable title → expands/collapses the tutorial.
+-   UI is built with styled-components using a shared Styled object.
+-   Focused on local dev first, with simple GitHub Pages deploy when needed.
+-   Topics (growing)
+    -   React: definition & inspiration
+    -   Vite install (create app, run dev)
+    -   many more
 
-## Getting Started
+## Quick start (local)
 
 ```bash
-npm install
-npm run dev
+npm i
+npm run dev   # http://localhost:5173
+```
+
+## Build & preview (locally)
+
+```bash
+npm run build
+npm run preview
 ```
