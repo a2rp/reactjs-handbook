@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import ReactDefinition from "./topics/ReactDefinition";
 import ViteInstall from "./topics/ViteInstall";
+import ProjectTree from "./topics/ProjectTree";
 
 export default function ReactTutorial() {
     return (
@@ -26,6 +27,7 @@ export default function ReactTutorial() {
             <h3>0. Setup & Local Dev</h3>
             <ReactDefinition />
             <ViteInstall />
+            <ProjectTree />
         </Styled.Wrapper>
     );
 }
