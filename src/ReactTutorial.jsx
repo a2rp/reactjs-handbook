@@ -4,17 +4,20 @@ import ReactDefinition from "./topics/ReactDefinition";
 export default function ReactTutorial() {
     return (
         <Styled.Wrapper>
-            <fieldset>
-                <legend><h1>From Wikipedia</h1></legend>
+            <fieldset
+                style={{ padding: "0 15px 15px 30px", marginBottom: 15 }}
+            >
+                <legend style={{ padding: 15 }}>From Wikipedia - last updated: Sep 01, 2025</legend>
                 <p>
                     React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library that aims to make building user interfaces based on components more "seamless". It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.
                 </p>
+                <br />
                 <p>
                     React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js and Remix. Because React is only concerned with the user interface and rendering components to the DOM, React applications often rely on libraries for routing and other client-side functionality. A key advantage of React is that it only re-renders those parts of the page that have changed, avoiding unnecessary re-rendering of unchanged DOM elements.
                 </p>
             </fieldset>
 
-            <ReactDefinition defaultOpen />
+            <ReactDefinition />
         </Styled.Wrapper>
     );
 }
