@@ -9,6 +9,7 @@ import LetVsConst from "./topics/es6_i_actually_use_daily/LetVsConst";
 import ArrowFunctions from "./topics/es6_i_actually_use_daily/ArrowFunctions";
 import Destructuring from "./topics/es6_i_actually_use_daily/Destructuring";
 import RestAndSpread from "./topics/es6_i_actually_use_daily/RestAndSpread";
+import TemplateLiterals from "./topics/es6_i_actually_use_daily/TemplateLiterals";
 
 export default function ReactTutorial() {
     return (
@@ -44,6 +45,7 @@ export default function ReactTutorial() {
             <ArrowFunctions />
             <Destructuring />
             <RestAndSpread />
+            <TemplateLiterals />
 
         </Styled.Wrapper>
     );
