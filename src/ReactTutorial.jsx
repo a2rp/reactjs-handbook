@@ -17,6 +17,7 @@ import OptionalChaining from "./topics/es6_i_actually_use_daily/OptionalChaining
 import NullishCoalescing from "./topics/es6_i_actually_use_daily/NullishCoalescing";
 import MapFilterReduce from "./topics/es6_i_actually_use_daily/MapFilterReduce";
 import FindSomeEvery from "./topics/es6_i_actually_use_daily/FindSomeEvery";
+import SortNoMutate from "./topics/es6_i_actually_use_daily/SortNoMutate";
 
 export default function ReactTutorial() {
     return (
@@ -61,6 +62,7 @@ export default function ReactTutorial() {
                 <NullishCoalescing />
                 <MapFilterReduce />
                 <FindSomeEvery />
+                <SortNoMutate />
             </>
 
         </Styled.Wrapper>
@@ -74,7 +76,7 @@ const Styled = {
     min-height: 100vh;
     background: var(--bg);
     color: var(--text);
-    padding: 20px;
+    padding: 10px;
     font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI",
       Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji",
       "Segoe UI Emoji";
