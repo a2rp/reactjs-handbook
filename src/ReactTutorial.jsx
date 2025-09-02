@@ -21,6 +21,7 @@ import SortNoMutate from "./topics/es6_i_actually_use_daily/SortNoMutate";
 import FlatAndFlatMap from "./topics/es6_i_actually_use_daily/FlatAndFlatMap";
 import ObjectUtilities from "./topics/es6_i_actually_use_daily/ObjectUtilities";
 import SetsAndMaps from "./topics/es6_i_actually_use_daily/SetsAndMaps";
+import PromisesAsyncAwait from "./topics/es6_i_actually_use_daily/PromisesAsyncAwait";
 
 export default function ReactTutorial() {
     return (
@@ -69,6 +70,7 @@ export default function ReactTutorial() {
                 <FlatAndFlatMap />
                 <ObjectUtilities />
                 <SetsAndMaps />
+                <PromisesAsyncAwait />
             </>
 
         </Styled.Wrapper>
