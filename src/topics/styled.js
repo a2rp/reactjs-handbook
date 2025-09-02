@@ -80,6 +80,8 @@ export const Styled = {
         p,
         li {
             color: #e5e7eb;
+        }
+        p {
             margin-bottom: 30px;
         }
         ul {

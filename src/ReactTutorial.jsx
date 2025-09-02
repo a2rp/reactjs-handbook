@@ -6,6 +6,7 @@ import EditorSetup from "./topics/setup_and_local_dev/EditorSetup";
 import EnvFiles from "./topics/setup_and_local_dev/EnvFiles";
 import ImportExportBasics from "./topics/setup_and_local_dev/ImportExportBasics";
 import LetVsConst from "./topics/es6_i_actually_use_daily/LetVsConst";
+import ArrowFunctions from "./topics/es6_i_actually_use_daily/ArrowFunctions";
 
 export default function ReactTutorial() {
     return (
@@ -38,6 +39,7 @@ export default function ReactTutorial() {
 
             <h3 style={{ marginTop: 50 }}>1. ES6+ I actually use daily</h3>
             <LetVsConst />
+            <ArrowFunctions />
 
         </Styled.Wrapper>
     );
