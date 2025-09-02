@@ -19,6 +19,7 @@ import MapFilterReduce from "./topics/es6_i_actually_use_daily/MapFilterReduce";
 import FindSomeEvery from "./topics/es6_i_actually_use_daily/FindSomeEvery";
 import SortNoMutate from "./topics/es6_i_actually_use_daily/SortNoMutate";
 import FlatAndFlatMap from "./topics/es6_i_actually_use_daily/FlatAndFlatMap";
+import ObjectUtilities from "./topics/es6_i_actually_use_daily/ObjectUtilities";
 
 export default function ReactTutorial() {
     return (
@@ -65,6 +66,7 @@ export default function ReactTutorial() {
                 <FindSomeEvery />
                 <SortNoMutate />
                 <FlatAndFlatMap />
+                <ObjectUtilities />
             </>
 
         </Styled.Wrapper>
