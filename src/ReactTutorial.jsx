@@ -16,6 +16,7 @@ import DefaultParameters from "./topics/es6_i_actually_use_daily/DefaultParamete
 import OptionalChaining from "./topics/es6_i_actually_use_daily/OptionalChaining";
 import NullishCoalescing from "./topics/es6_i_actually_use_daily/NullishCoalescing";
 import MapFilterReduce from "./topics/es6_i_actually_use_daily/MapFilterReduce";
+import FindSomeEvery from "./topics/es6_i_actually_use_daily/FindSomeEvery";
 
 export default function ReactTutorial() {
     return (
@@ -59,6 +60,7 @@ export default function ReactTutorial() {
                 <OptionalChaining />
                 <NullishCoalescing />
                 <MapFilterReduce />
+                <FindSomeEvery />
             </>
 
         </Styled.Wrapper>
