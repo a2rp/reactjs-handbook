@@ -1,15 +1,18 @@
 import styled from "styled-components";
 import ReactDefinition from "./topics/setup_and_local_dev/ReactDefinition";
+
 import ViteInstall from "./topics/setup_and_local_dev/ViteInstall";
 import ProjectTree from "./topics/setup_and_local_dev/ProjectTree";
 import EditorSetup from "./topics/setup_and_local_dev/EditorSetup";
 import EnvFiles from "./topics/setup_and_local_dev/EnvFiles";
 import ImportExportBasics from "./topics/setup_and_local_dev/ImportExportBasics";
+
 import LetVsConst from "./topics/es6_i_actually_use_daily/LetVsConst";
 import ArrowFunctions from "./topics/es6_i_actually_use_daily/ArrowFunctions";
 import Destructuring from "./topics/es6_i_actually_use_daily/Destructuring";
 import RestAndSpread from "./topics/es6_i_actually_use_daily/RestAndSpread";
 import TemplateLiterals from "./topics/es6_i_actually_use_daily/TemplateLiterals";
+import DefaultParameters from "./topics/es6_i_actually_use_daily/DefaultParameters";
 
 export default function ReactTutorial() {
     return (
@@ -46,6 +49,7 @@ export default function ReactTutorial() {
             <Destructuring />
             <RestAndSpread />
             <TemplateLiterals />
+            <DefaultParameters />
 
         </Styled.Wrapper>
     );
