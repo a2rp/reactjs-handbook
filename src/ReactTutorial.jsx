@@ -18,6 +18,7 @@ import NullishCoalescing from "./topics/es6_i_actually_use_daily/NullishCoalesci
 import MapFilterReduce from "./topics/es6_i_actually_use_daily/MapFilterReduce";
 import FindSomeEvery from "./topics/es6_i_actually_use_daily/FindSomeEvery";
 import SortNoMutate from "./topics/es6_i_actually_use_daily/SortNoMutate";
+import FlatAndFlatMap from "./topics/es6_i_actually_use_daily/FlatAndFlatMap";
 
 export default function ReactTutorial() {
     return (
@@ -63,6 +64,7 @@ export default function ReactTutorial() {
                 <MapFilterReduce />
                 <FindSomeEvery />
                 <SortNoMutate />
+                <FlatAndFlatMap />
             </>
 
         </Styled.Wrapper>
