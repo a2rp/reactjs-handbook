@@ -8,6 +8,7 @@ import ImportExportBasics from "./topics/setup_and_local_dev/ImportExportBasics"
 import LetVsConst from "./topics/es6_i_actually_use_daily/LetVsConst";
 import ArrowFunctions from "./topics/es6_i_actually_use_daily/ArrowFunctions";
 import Destructuring from "./topics/es6_i_actually_use_daily/Destructuring";
+import RestAndSpread from "./topics/es6_i_actually_use_daily/RestAndSpread";
 
 export default function ReactTutorial() {
     return (
@@ -42,6 +43,7 @@ export default function ReactTutorial() {
             <LetVsConst />
             <ArrowFunctions />
             <Destructuring />
+            <RestAndSpread />
 
         </Styled.Wrapper>
     );
