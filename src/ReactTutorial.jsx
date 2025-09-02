@@ -1,10 +1,11 @@
 import styled from "styled-components";
-import ReactDefinition from "./topics/ReactDefinition";
-import ViteInstall from "./topics/ViteInstall";
-import ProjectTree from "./topics/ProjectTree";
-import EditorSetup from "./topics/EditorSetup";
-import EnvFiles from "./topics/EnvFiles";
-import ImportExportBasics from "./topics/ImportExportBasics";
+import ReactDefinition from "./topics/setup_and_local_dev/ReactDefinition";
+import ViteInstall from "./topics/setup_and_local_dev/ViteInstall";
+import ProjectTree from "./topics/setup_and_local_dev/ProjectTree";
+import EditorSetup from "./topics/setup_and_local_dev/EditorSetup";
+import EnvFiles from "./topics/setup_and_local_dev/EnvFiles";
+import ImportExportBasics from "./topics/setup_and_local_dev/ImportExportBasics";
+import LetVsConst from "./topics/es6_i_actually_use_daily/LetVsConst";
 
 export default function ReactTutorial() {
     return (
@@ -34,6 +35,10 @@ export default function ReactTutorial() {
             <EditorSetup />
             <EnvFiles />
             <ImportExportBasics />
+
+            <h3 style={{ marginTop: 50 }}>1. ES6+ I actually use daily</h3>
+            <LetVsConst />
+
         </Styled.Wrapper>
     );
 }

@@ -1,6 +1,5 @@
-// src/EditorSetup.jsx
 import React from "react";
-import { Styled } from "./styled";
+import { Styled } from "../styled";
 
 /**
  * Topic - Editor setup (VS Code, extensions)

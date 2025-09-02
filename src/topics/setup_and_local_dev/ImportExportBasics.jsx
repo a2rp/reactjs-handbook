@@ -1,6 +1,5 @@
-// src/ImportExportBasics.jsx
 import React from "react";
-import { Styled } from "./styled";
+import { Styled } from "../styled";
 
 /**
  * Topic - Import/export basics (named vs default)

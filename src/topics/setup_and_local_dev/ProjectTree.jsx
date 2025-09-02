@@ -1,5 +1,5 @@
 import React from "react";
-import { Styled } from "./styled";
+import { Styled } from "../styled";
 
 /**
  * Topic - Project tree (what each file does)
