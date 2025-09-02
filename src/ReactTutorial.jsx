@@ -15,6 +15,7 @@ import TemplateLiterals from "./topics/es6_i_actually_use_daily/TemplateLiterals
 import DefaultParameters from "./topics/es6_i_actually_use_daily/DefaultParameters";
 import OptionalChaining from "./topics/es6_i_actually_use_daily/OptionalChaining";
 import NullishCoalescing from "./topics/es6_i_actually_use_daily/NullishCoalescing";
+import MapFilterReduce from "./topics/es6_i_actually_use_daily/MapFilterReduce";
 
 export default function ReactTutorial() {
     return (
@@ -57,6 +58,7 @@ export default function ReactTutorial() {
                 <DefaultParameters />
                 <OptionalChaining />
                 <NullishCoalescing />
+                <MapFilterReduce />
             </>
 
         </Styled.Wrapper>
