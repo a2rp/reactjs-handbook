@@ -14,6 +14,7 @@ import RestAndSpread from "./topics/es6_i_actually_use_daily/RestAndSpread";
 import TemplateLiterals from "./topics/es6_i_actually_use_daily/TemplateLiterals";
 import DefaultParameters from "./topics/es6_i_actually_use_daily/DefaultParameters";
 import OptionalChaining from "./topics/es6_i_actually_use_daily/OptionalChaining";
+import NullishCoalescing from "./topics/es6_i_actually_use_daily/NullishCoalescing";
 
 export default function ReactTutorial() {
     return (
@@ -37,21 +38,26 @@ export default function ReactTutorial() {
 
             <div className="divider"></div>
             <h3>0. Setup & Local Dev</h3>
-            <ReactDefinition />
-            <ViteInstall />
-            <ProjectTree />
-            <EditorSetup />
-            <EnvFiles />
-            <ImportExportBasics />
+            <>
+                <ReactDefinition />
+                <ViteInstall />
+                <ProjectTree />
+                <EditorSetup />
+                <EnvFiles />
+                <ImportExportBasics />
+            </>
 
             <h3 style={{ marginTop: 50 }}>1. ES6+ I actually use daily</h3>
-            <LetVsConst />
-            <ArrowFunctions />
-            <Destructuring />
-            <RestAndSpread />
-            <TemplateLiterals />
-            <DefaultParameters />
-            <OptionalChaining />
+            <>
+                <LetVsConst />
+                <ArrowFunctions />
+                <Destructuring />
+                <RestAndSpread />
+                <TemplateLiterals />
+                <DefaultParameters />
+                <OptionalChaining />
+                <NullishCoalescing />
+            </>
 
         </Styled.Wrapper>
     );
