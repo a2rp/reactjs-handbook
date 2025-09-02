@@ -13,6 +13,7 @@ import Destructuring from "./topics/es6_i_actually_use_daily/Destructuring";
 import RestAndSpread from "./topics/es6_i_actually_use_daily/RestAndSpread";
 import TemplateLiterals from "./topics/es6_i_actually_use_daily/TemplateLiterals";
 import DefaultParameters from "./topics/es6_i_actually_use_daily/DefaultParameters";
+import OptionalChaining from "./topics/es6_i_actually_use_daily/OptionalChaining";
 
 export default function ReactTutorial() {
     return (
@@ -50,6 +51,7 @@ export default function ReactTutorial() {
             <RestAndSpread />
             <TemplateLiterals />
             <DefaultParameters />
+            <OptionalChaining />
 
         </Styled.Wrapper>
     );
