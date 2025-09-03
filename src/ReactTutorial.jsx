@@ -24,6 +24,7 @@ import SetsAndMaps from "./topics/es6_i_actually_use_daily/SetsAndMaps";
 import PromisesAsyncAwait from "./topics/es6_i_actually_use_daily/PromisesAsyncAwait";
 import FetchBasicsJSON from "./topics/es6_i_actually_use_daily/FetchBasicsJSON";
 import Timers from "./topics/es6_i_actually_use_daily/Timers";
+import JSXSyntaxRules from "./topics/jsx_rules_and_patterns/JSXSyntaxRules";
 
 export default function ReactTutorial() {
     return (
@@ -75,6 +76,11 @@ export default function ReactTutorial() {
                 <PromisesAsyncAwait />
                 <FetchBasicsJSON />
                 <Timers />
+            </>
+
+            <h3 style={{ marginTop: 50 }}>2. JSX: Rules and Patterns</h3>
+            <>
+                <JSXSyntaxRules />
             </>
 
         </Styled.Wrapper>
