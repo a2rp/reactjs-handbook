@@ -44,6 +44,15 @@ import CompositionOverInheritance from "./topics/components_and_props/Compositio
 import PropDrilling from "./topics/components_and_props/PropDrilling";
 import PureVsStateful from "./topics/components_and_props/PureVsStateful";
 import ReusableComponentAPIDesign from "./topics/components_and_props/ReusableComponentAPIDesign";
+import UseStateBasics from "./topics/state/UseStateBasics";
+import FunctionalUpdates from "./topics/state/FunctionalUpdates";
+import InitialStateFunction from "./topics/state/InitialStateFunction";
+import MultipleStateVariables from "./topics/state/MultipleStateVariables";
+import ObjectsInState from "./topics/state/ObjectsInState";
+import ArraysInState from "./topics/state/ArraysInState";
+import DerivedStateVsCompute from "./topics/state/DerivedStateVsCompute";
+import BatchingStateUpdates from "./topics/state/BatchingStateUpdates";
+import AntiPatterns from "./topics/state/AntiPatterns";
 
 export default function ReactTutorial() {
     return (
@@ -63,7 +72,7 @@ export default function ReactTutorial() {
             </fieldset>
 
             <h1 style={{ marginTop: "30px" }}>My Notes</h1>
-            <h3>last updated: Sep 02, 2025</h3>
+            <h3>last updated: Sep 03, 2025</h3>
 
             <div className="divider"></div>
             <h3>0. Setup & Local Dev</h3>
@@ -122,6 +131,19 @@ export default function ReactTutorial() {
                 <PropDrilling />
                 <PureVsStateful />
                 <ReusableComponentAPIDesign />
+            </>
+
+            <h3 style={{ marginTop: 50 }}>4. State (useState) - fundamentals</h3>
+            <>
+                <UseStateBasics />
+                <FunctionalUpdates />
+                <InitialStateFunction />
+                <MultipleStateVariables />
+                <ObjectsInState />
+                <ArraysInState />
+                <DerivedStateVsCompute />
+                <BatchingStateUpdates />
+                <AntiPatterns />
             </>
         </Styled.Wrapper>
     );
