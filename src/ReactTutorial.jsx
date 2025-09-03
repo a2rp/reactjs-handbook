@@ -38,6 +38,12 @@ import RenderingLists from "./topics/jsx_rules_and_patterns/RenderingLists";
 import KeysStableIdentity from "./topics/jsx_rules_and_patterns/KeysStableIdentity";
 import DangerousHTML from "./topics/jsx_rules_and_patterns/DangerousHTML";
 import FunctionComponentAnatomy from "./topics/components_and_props/FunctionComponentAnatomy";
+import DefaultFallbackProps from "./topics/components_and_props/DefaultFallbackProps";
+import ChildrenProp from "./topics/components_and_props/ChildrenProp";
+import CompositionOverInheritance from "./topics/components_and_props/CompositionOverInheritance";
+import PropDrilling from "./topics/components_and_props/PropDrilling";
+import PureVsStateful from "./topics/components_and_props/PureVsStateful";
+import ReusableComponentAPIDesign from "./topics/components_and_props/ReusableComponentAPIDesign";
 
 export default function ReactTutorial() {
     return (
@@ -110,6 +116,12 @@ export default function ReactTutorial() {
             <h3 style={{ marginTop: 50 }}>3. Components & Props</h3>
             <>
                 <FunctionComponentAnatomy />
+                <DefaultFallbackProps />
+                <ChildrenProp />
+                <CompositionOverInheritance />
+                <PropDrilling />
+                <PureVsStateful />
+                <ReusableComponentAPIDesign />
             </>
         </Styled.Wrapper>
     );
