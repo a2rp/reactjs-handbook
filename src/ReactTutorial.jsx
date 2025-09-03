@@ -24,7 +24,20 @@ import SetsAndMaps from "./topics/es6_i_actually_use_daily/SetsAndMaps";
 import PromisesAsyncAwait from "./topics/es6_i_actually_use_daily/PromisesAsyncAwait";
 import FetchBasicsJSON from "./topics/es6_i_actually_use_daily/FetchBasicsJSON";
 import Timers from "./topics/es6_i_actually_use_daily/Timers";
+
 import JSXSyntaxRules from "./topics/jsx_rules_and_patterns/JSXSyntaxRules";
+import HTMLvsJSX from "./topics/jsx_rules_and_patterns/HTMLvsJSX";
+import InlineStyles from "./topics/jsx_rules_and_patterns/InlineStyles";
+import Fragments from "./topics/jsx_rules_and_patterns/Fragments";
+import CommentsInJSX from "./topics/jsx_rules_and_patterns/CommentsInJSX";
+import ExpressionsVsStatements from "./topics/jsx_rules_and_patterns/ExpressionsVsStatements";
+import ConditionalAnd from "./topics/jsx_rules_and_patterns/ConditionalAnd";
+import ConditionalTernary from "./topics/jsx_rules_and_patterns/ConditionalTernary";
+import EarlyReturn from "./topics/jsx_rules_and_patterns/EarlyReturn";
+import RenderingLists from "./topics/jsx_rules_and_patterns/RenderingLists";
+import KeysStableIdentity from "./topics/jsx_rules_and_patterns/KeysStableIdentity";
+import DangerousHTML from "./topics/jsx_rules_and_patterns/DangerousHTML";
+import FunctionComponentAnatomy from "./topics/components_and_props/FunctionComponentAnatomy";
 
 export default function ReactTutorial() {
     return (
@@ -81,8 +94,23 @@ export default function ReactTutorial() {
             <h3 style={{ marginTop: 50 }}>2. JSX: Rules and Patterns</h3>
             <>
                 <JSXSyntaxRules />
+                <HTMLvsJSX />
+                <InlineStyles />
+                <Fragments />
+                <CommentsInJSX />
+                <ExpressionsVsStatements />
+                <ConditionalAnd />
+                <ConditionalTernary />
+                <EarlyReturn />
+                <RenderingLists />
+                <KeysStableIdentity />
+                <DangerousHTML />
             </>
 
+            <h3 style={{ marginTop: 50 }}>3. Components & Props</h3>
+            <>
+                <FunctionComponentAnatomy />
+            </>
         </Styled.Wrapper>
     );
 }

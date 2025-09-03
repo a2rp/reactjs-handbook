@@ -84,7 +84,8 @@ export const Styled = {
         p {
             margin-bottom: 30px;
         }
-        ul {
+        ul,
+        ol {
             margin: 8px 0 14px 18px;
         }
         em {

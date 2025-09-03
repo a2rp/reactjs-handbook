@@ -36,13 +36,13 @@ export default function JSXSyntaxRules({ defaultOpen = false }) {
 function Content() {
     return (
         <Styled.Content>
-            <p>
+            <div>
                 JSX is syntax sugar for <code>React.createElement</code>. It has two core rules:
                 <ul>
                     <li><strong> (1) one root element</strong> per JSX return, and</li>
                     <li><strong>(2) curly braces hold expressions</strong> (not statements).</li>
                 </ul>
-            </p>
+            </div>
 
             <h3>A) One root element</h3>
             <p>Each component’s <code>return</code> must produce a single parent node. Use a wrapper element or a Fragment.</p>
