@@ -23,6 +23,7 @@ import ObjectUtilities from "./topics/es6_i_actually_use_daily/ObjectUtilities";
 import SetsAndMaps from "./topics/es6_i_actually_use_daily/SetsAndMaps";
 import PromisesAsyncAwait from "./topics/es6_i_actually_use_daily/PromisesAsyncAwait";
 import FetchBasicsJSON from "./topics/es6_i_actually_use_daily/FetchBasicsJSON";
+import Timers from "./topics/es6_i_actually_use_daily/Timers";
 
 export default function ReactTutorial() {
     return (
@@ -73,6 +74,7 @@ export default function ReactTutorial() {
                 <SetsAndMaps />
                 <PromisesAsyncAwait />
                 <FetchBasicsJSON />
+                <Timers />
             </>
 
         </Styled.Wrapper>
