@@ -47,9 +47,18 @@ export default function Footer() {
                 {/* Quick jump */}
                 <Styled.Col>
                     <h5>Quick Jump</h5>
-                    <a className="top" href="#top" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+                    <a
+                        href="#top"
+                        onClick={(e) => {
+                            e.preventDefault();
+                            const node = document.getElementById("scroll-root");
+                            if (node) node.scrollTo({ top: 0, behavior: "smooth" });
+                            else window.scrollTo({ top: 0, behavior: "smooth" });
+                        }}
+                    >
                         ↑ Back to top
                     </a>
+
                 </Styled.Col>
             </Styled.Inner>
 

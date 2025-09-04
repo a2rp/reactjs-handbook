@@ -45,7 +45,7 @@ const App = () => {
                         </div>
                     </Styled.NavWrapper>
 
-                    <Styled.ContentWrapper>
+                    <Styled.ContentWrapper id="scroll-root" data-scroll-root>
                         <Styled.RoutesWrapper>
                             <Suspense fallback={<CircularProgress />}>
                                 <Routes>

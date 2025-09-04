@@ -99,17 +99,19 @@ const NavWrapper = styled.div`
 const Tuts = styled.div``;
 
 const ContentWrapper = styled.div`
-    /* border: 1px solid #333; */
+    /* border: 1px solid #f00; */
     box-shadow: 0 0 1px 1px #333 inset;
     /* flex: 1 1 100%; */
     width: 100%;
-    height: 100%;
+    /* height: calc(100vh - 100px); */
     overflow: auto;
     padding: 15px;
+    scroll-behavior: smooth !important;
 `;
 
 const RoutesWrapper = styled.div`
     min-height: 100vh;
+    /* height: calc(100vh - 100px); */
 `;
 
 const Footer = styled.div`
