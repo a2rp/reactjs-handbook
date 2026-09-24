@@ -163,7 +163,7 @@ const TextField = React.forwardRef(function TextField({ ...rest }, ref) {
                     Build a <code>&lt;Button&gt;</code> that accepts <code>kind</code> (<code>primary</code>/<code>default</code>), forwards <code>...rest</code>, and uses <code>children</code> as label.
                 </li>
                 <li>
-                    Create <code>&lt;Counter step={5} onChange={fn}/&gt;</code> that calls <code>onChange</code> with the next value after each increment.
+                    Create a Counter component with a step of 5 and an onChange callback.
                 </li>
                 <li>
                     Fix a component that passes an invalid prop (<code>foo</code>) to a <code>&lt;div&gt;</code>; convert it to <code>data-foo</code>.

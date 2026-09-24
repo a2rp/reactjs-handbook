@@ -1,52 +1,33 @@
 # ReactJS Handbook
 
-Bite-sized, expandable React notes that I actually use day-to-day—each topic is a small toggleable component with clear text and copy-paste code.
+A practical React reference with bite-sized topics, expandable examples, and reusable patterns for day-to-day frontend work.
 
-# **Live:** https://a2rp.github.io/reactjs-handbook/
+![ReactJS Handbook preview](screenshot.png)
 
-# **Code:** https://github.com/a2rp/reactjs-handbook
+## Features
 
-## What is this?
+- React fundamentals, JSX, props, state, and component patterns
+- Hooks, events, forms, setup, ES6+, and practical examples
+- Expandable topic sections with route-based navigation
+- Responsive sidebar, theme-ready layout, and scroll-to-top controls
 
--   A growing handbook of micro-topics (definition, Vite setup, JSX rules, state, effects, routing, performance, etc.).
--   Each topic is a single React component with a clickable title → expands/collapses the tutorial.
--   UI is built with styled-components using a shared Styled object.
--   Focused on local dev first, with simple GitHub Pages deploy when needed.
--   Topics (growing)
-    -   React: definition & inspiration
-    -   Vite install (create app, run dev)
-    -   many more
+## Tech stack
 
-## Quick start (local)
+React, Vite, React Router, Material UI, React Icons, and styled-components.
 
-```bash
-npm i
-npm run dev   # http://localhost:5173
-```
+## Run locally
 
-## Build & preview (locally)
+~~~bash
+npm install
+npm run dev
+~~~
 
-```bash
+Build and deploy:
+
+~~~bash
 npm run build
-npm run preview
-```
-
-## Links
-
-- Portfolio: [https://www.ashishranjan.net](https://www.ashishranjan.net)
-- GitHub: [https://github.com/a2rp](https://github.com/a2rp)
-- CodePen: [https://codepen.io/ash1198](https://codepen.io/ash1198)
-- LinkedIn: [https://www.linkedin.com/in/aashishranjan](https://www.linkedin.com/in/aashishranjan)
-- Facebook: [https://www.facebook.com/theash.ashish/](https://www.facebook.com/theash.ashish/)
-- YouTube: [https://www.youtube.com/@ashishranjan-ashz?sub_confirmation=1](https://www.youtube.com/@ashishranjan-ashz?sub_confirmation=1)
-- Email: [ash.ranjan09@gmail.com](mailto:ash.ranjan09@gmail.com)
-
-## Support
-
-- Support: [https://a2rp-donation-page.netlify.app/](https://a2rp-donation-page.netlify.app/)
-- Buy Me A Coffee: [https://buymeacoffee.com/a2rp](https://buymeacoffee.com/a2rp)
-- Patreon: [https://patreon.com/a2rp](https://patreon.com/a2rp)
-<!-- Project links -->
+npm run deploy
+~~~
 
 ## Links
 
@@ -62,6 +43,6 @@ npm run preview
 
 ## Support
 
-- Support: [https://a2rp-donation-page.netlify.app/](https://a2rp-donation-page.netlify.app/)
-- Buy Me a Coffee: [https://buymeacoffee.com/a2rp](https://buymeacoffee.com/a2rp)
-- Patreon: [https://www.patreon.com/a2rp](https://www.patreon.com/a2rp)
+- [Support](https://a2rp-donation-page.netlify.app/)
+- [Buy Me a Coffee](https://buymeacoffee.com/a2rp)
+- [Patreon](https://patreon.com/a2rp)
