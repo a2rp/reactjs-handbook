@@ -1,4 +1,4 @@
-import{d as a,G as i,j as e,N as t}from"./index-B46-zIwX.js";const n="1080px",r={Wrapper:a.div`
+import{d as a,G as i,j as e,N as t}from"./index-C0Ec0ChZ.js";const n="1080px",r={Wrapper:a.div`
         color: var(--text, #e9e9e9);
         padding: 24px;
     `,Hero:a.section`
