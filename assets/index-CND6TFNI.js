@@ -1,4 +1,4 @@
-import{R as d,j as e,d as o}from"./index-C0Ec0ChZ.js";import{S as n}from"./styled-CzpYvhuz.js";function c({defaultOpen:r=!1}){const[s,t]=d.useState(!!r),i="jsx-syntax-rules";return e.jsxs(n.Topic,{id:i,children:[e.jsxs(n.Title,{onClick:()=>t(l=>!l),"aria-expanded":s,"aria-controls":`${i}-panel`,id:`${i}-button`,"data-open":s,children:[e.jsx(n.Arrow,{"data-open":s,children:"▸"}),e.jsx("span",{children:"JSX syntax rules (one root, expressions)"})]}),e.jsx(n.Panel,{id:`${i}-panel`,role:"region","aria-labelledby":`${i}-button`,"data-open":s,children:e.jsx("div",{children:e.jsx(a,{})})})]})}function a(){return e.jsxs(n.Content,{children:[e.jsxs("div",{children:["JSX is syntax sugar for ",e.jsx("code",{children:"React.createElement"}),". It has two core rules:",e.jsxs("ul",{children:[e.jsxs("li",{children:[e.jsx("strong",{children:" (1) one root element"})," per JSX return, and"]}),e.jsxs("li",{children:[e.jsx("strong",{children:"(2) curly braces hold expressions"})," (not statements)."]})]})]}),e.jsx("h3",{children:"A) One root element"}),e.jsxs("p",{children:["Each component’s ",e.jsx("code",{children:"return"})," must produce a single parent node. Use a wrapper element or a Fragment."]}),e.jsx(n.Code,{children:`// ❌ Not allowed: two siblings at top level
+import{R as d,j as e,d as o}from"./index-BxeOja68.js";import{S as n}from"./styled-Bypfb0Oi.js";function c({defaultOpen:r=!1}){const[s,t]=d.useState(!!r),i="jsx-syntax-rules";return e.jsxs(n.Topic,{id:i,children:[e.jsxs(n.Title,{onClick:()=>t(l=>!l),"aria-expanded":s,"aria-controls":`${i}-panel`,id:`${i}-button`,"data-open":s,children:[e.jsx(n.Arrow,{"data-open":s,children:"▸"}),e.jsx("span",{children:"JSX syntax rules (one root, expressions)"})]}),e.jsx(n.Panel,{id:`${i}-panel`,role:"region","aria-labelledby":`${i}-button`,"data-open":s,children:e.jsx("div",{children:e.jsx(a,{})})})]})}function a(){return e.jsxs(n.Content,{children:[e.jsxs("div",{children:["JSX is syntax sugar for ",e.jsx("code",{children:"React.createElement"}),". It has two core rules:",e.jsxs("ul",{children:[e.jsxs("li",{children:[e.jsx("strong",{children:" (1) one root element"})," per JSX return, and"]}),e.jsxs("li",{children:[e.jsx("strong",{children:"(2) curly braces hold expressions"})," (not statements)."]})]})]}),e.jsx("h3",{children:"A) One root element"}),e.jsxs("p",{children:["Each component’s ",e.jsx("code",{children:"return"})," must produce a single parent node. Use a wrapper element or a Fragment."]}),e.jsx(n.Code,{children:`// ❌ Not allowed: two siblings at top level
 function Bad() {
   return (
     <h1>Title</h1>
@@ -146,8 +146,8 @@ const disabled = isSubmitting;
 <svg viewBox="0 0 100 10">
   <rect width="100" height="10" fill="tomato" />
 </svg>`}),e.jsx("h3",{children:"D) Conditional & merged styles"}),e.jsx("p",{children:"Inline styles are just objects-combine with spreads and conditionals."}),e.jsx(n.Code,{children:`const base = { padding: 12, borderRadius: 8 };
-const primary = { backgroundColor: "#0af", color: "#fff" };
-const danger  = { backgroundColor: "#e11", color: "#fff" };
+const primary = { backgroundColor: "#aaa", color: "#fff" };
+const danger  = { backgroundColor: "#777", color: "#fff" };
 
 function Button({ kind = "primary", active }) {
   const tone = kind === "danger" ? danger : primary;
@@ -170,7 +170,7 @@ function Button({ kind = "primary", active }) {
         style={{
           width: pct + "%",              // string for %
           height: "100%",
-          background: "var(--accent,#0af)",
+          background: "var(--accent,#aaa)",
           borderRadius: 4
         }}
         aria-valuenow={pct}
