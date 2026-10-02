@@ -49,8 +49,8 @@ const Styled = {
         line-height: 1.65;
 
         p { margin: 0 0 8px; }
-        .outcome { color: #bfcfff; }
-        strong { color: #e2e8ff; font-weight: 600; }
+        .outcome { color: #cfcfcf; }
+        strong { color: #e8e8e8; font-weight: 600; }
     `,
 
 };

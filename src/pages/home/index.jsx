@@ -22,7 +22,7 @@ export default function Home() {
 
 
             {/* HERO */}
-            <b style={{ color: "orangered", display: "flex", alignItems: "center", gap: 15 }}>
+            <b style={{ color: "#b3b3b3", display: "flex", alignItems: "center", gap: 15 }}>
                 Last Updated: September 05, 2025 <a href="https://github.com/a2rp/reactjs-handbook" target="_blank" style={{ color: "#fff", textDecoration: "none" }}><FaGithub size={20} /></a>
             </b>
             <Styled.Hero>

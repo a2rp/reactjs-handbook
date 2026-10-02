@@ -45,8 +45,8 @@ export const Styled = {
             will-change: transform;
         }
         .btn.primary {
-            background: #1f6feb20;
-            border-color: #1f6feb60;
+            background: #75757520;
+            border-color: #75757560;
         }
         .btn.ghost:hover {
             background: #2a2a2a;
@@ -133,9 +133,9 @@ export const Styled = {
         margin-top: 30px;
 
         a {
-            color: #b8d1ff;
+            color: #d0d0d0;
             text-decoration: none;
-            border-bottom: 1px dashed #2c4370;
+            border-bottom: 1px dashed #444444;
             padding-bottom: 2px;
         }
         a:hover {

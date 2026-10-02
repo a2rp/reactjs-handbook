@@ -1,18 +1,18 @@
 import styled, { keyframes } from "styled-components";
 
 const pulse = keyframes`
-  from { box-shadow: 0 0 0 0 rgba(99,102,241,0.3); }
-  to   { box-shadow: 0 0 0 8px rgba(99,102,241,0.0); }
+  from { box-shadow: 0 0 0 0 rgba(119, 119, 119, 0.3); }
+  to   { box-shadow: 0 0 0 8px rgba(119, 119, 119, 0.0); }
 `;
 
 export const Styled = {
     Topic: styled.section`
-        --card: #121622;
-        --muted: #9aa3b2;
-        --accent: #6366f1;
-        --expose: #0f0;
+        --card: #161616;
+        --muted: #a2a2a2;
+        --accent: #777777;
+        --expose: #ddd;
         background: var(--card);
-        border: 1px solid #1c2333;
+        border: 1px solid #232323;
         border-radius: 14px;
         margin: 10px 0 16px;
         overflow: hidden;
@@ -31,12 +31,12 @@ export const Styled = {
         letter-spacing: 0.2px;
         background: linear-gradient(
             180deg,
-            rgba(99, 102, 241, 0.08),
+            rgba(119, 119, 119, 0.08),
             transparent
         );
-        border-bottom: 1px solid #1a2130;
+        border-bottom: 1px solid #212121;
         &:hover {
-            background: rgba(99, 102, 241, 0.1);
+            background: rgba(119, 119, 119, 0.1);
         }
         &:focus-visible {
             outline: 2px solid var(--accent);
@@ -75,11 +75,11 @@ export const Styled = {
         h3 {
             /* margin: 15px 0 8px; */
             font-size: 16px;
-            color: #c7d2fe;
+            color: #d3d3d3;
         }
         p,
         li {
-            color: #e5e7eb;
+            color: #e7e7e7;
         }
         p {
             margin-bottom: 30px;
@@ -89,15 +89,15 @@ export const Styled = {
             margin: 8px 0 14px 18px;
         }
         em {
-            color: #cbd5e1;
+            color: #d4d4d4;
         }
     `,
 
     Code: styled.pre`
         margin: 10px 0 16px;
         padding: 15px 16px;
-        background: #0b0f19;
-        border: 1px solid #1c2333;
+        background: #0f0f0f;
+        border: 1px solid #232323;
         border-radius: 12px;
         overflow: auto;
         font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
@@ -114,10 +114,10 @@ export const Styled = {
             font-size: 11px;
             /* color: var(--muted); */
             color: var(--expose);
-            background: #0d0f14;
+            background: #0f0f0f;
             padding: 2px 6px;
             border-radius: 6px;
-            border: 1px solid #1c2333;
+            border: 1px solid #232323;
             animation: ${pulse} 2s ease-out 1;
         }
     `,
@@ -125,14 +125,14 @@ export const Styled = {
     Kbd: styled.code`
         padding: 1px 6px;
         border-radius: 6px;
-        background: #0b0f19;
-        border: 1px solid #1c2333;
+        background: #0f0f0f;
+        border: 1px solid #232323;
         font-size: 0.9em;
     `,
 
     Divider: styled.hr`
         border: none;
-        border-top: 1px dashed #263049;
+        border-top: 1px dashed #303030;
         margin: 16px 0;
     `,
 };

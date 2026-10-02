@@ -23,10 +23,10 @@ export const Styled = {
         h4 { margin: 0 0 8px; font-size: 18px; letter-spacing: .3px; }
         h5 { margin: 0 0 8px; font-size: 14px; color: #bdbdbd; font-weight: 600; letter-spacing: .2px; text-transform: uppercase; }
         p { margin: 0 0 10px; color: #bfbfbf; line-height: 1.55; }
-        .builtwith { color: #a9c6ff; }
+        .builtwith { color: #c5c5c5; }
         .iconLinks { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
-        .iconLinks a, .topButton { width: 34px; height: 34px; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #2a2a2a; border-radius: 8px; background: #151515; color: #cfe0ff; text-decoration: none; cursor: pointer; transition: background 180ms ease, border-color 180ms ease, box-shadow 180ms ease, color 180ms ease; }
-        .iconLinks a:hover, .iconLinks a:focus-visible, .topButton:hover, .topButton:focus-visible { background: #1d1d1d; border-color: #6c8fca; color: #fff; box-shadow: 0 0 16px rgba(108,143,202,.25); outline: none; }
+        .iconLinks a, .topButton { width: 34px; height: 34px; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #2a2a2a; border-radius: 8px; background: #151515; color: #dfdfdf; text-decoration: none; cursor: pointer; transition: background 180ms ease, border-color 180ms ease, box-shadow 180ms ease, color 180ms ease; }
+        .iconLinks a:hover, .iconLinks a:focus-visible, .topButton:hover, .topButton:focus-visible { background: #1d1d1d; border-color: #8e8e8e; color: #fff; box-shadow: 0 0 16px rgba(142, 142, 142, .25); outline: none; }
         .topButton { margin-top: 12px; }
     `,
     Bar: styled.div`

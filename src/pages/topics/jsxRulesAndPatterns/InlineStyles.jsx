@@ -76,8 +76,8 @@ function Content() {
             <h3>D) Conditional & merged styles</h3>
             <p>Inline styles are just objects-combine with spreads and conditionals.</p>
             <Styled.Code>{`const base = { padding: 12, borderRadius: 8 };
-const primary = { backgroundColor: "#0af", color: "#fff" };
-const danger  = { backgroundColor: "#e11", color: "#fff" };
+const primary = { backgroundColor: "#aaa", color: "#fff" };
+const danger  = { backgroundColor: "#777", color: "#fff" };
 
 function Button({ kind = "primary", active }) {
   const tone = kind === "danger" ? danger : primary;
@@ -107,7 +107,7 @@ function Button({ kind = "primary", active }) {
         style={{
           width: pct + "%",              // string for %
           height: "100%",
-          background: "var(--accent,#0af)",
+          background: "var(--accent,#aaa)",
           borderRadius: 4
         }}
         aria-valuenow={pct}
