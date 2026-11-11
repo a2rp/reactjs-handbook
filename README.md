@@ -7,9 +7,10 @@ A practical React reference with bite-sized topics, expandable examples, and reu
 ## Features
 
 - React fundamentals, JSX, props, state, and component patterns
-- Hooks, events, forms, setup, ES6+, and practical examples
+- Vite setup, modern JavaScript, async code, and practical examples
 - Expandable topic sections with route-based navigation
 - Responsive sidebar, theme-ready layout, and scroll-to-top controls
+- GitHub Pages fallback for refreshing nested routes
 
 ## Tech stack
 
@@ -28,6 +29,9 @@ Build and deploy:
 npm run build
 npm run deploy
 ~~~
+
+The deploy pre-step copies the built app to `dist/404.html`, so GitHub Pages can
+serve React Router paths after a direct visit or refresh.
 
 ## Links
 

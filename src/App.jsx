@@ -16,6 +16,7 @@ const SetupAndLocalDev = lazy(() => import("./pages/topics/setupAndLocalDev"));
 const State = lazy(() => import("./pages/topics/state"));
 
 const navItems = [
+    ["/about", "About"],
     ["/setup-and-local-dev", "Setup & Local Dev"],
     ["/es6-i-actually-use-daily", "ES6+ I actually use daily"],
     ["/jsx-rules-and-patterns", "JSX rules and patterns"],

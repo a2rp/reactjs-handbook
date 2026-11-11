@@ -1,5 +1,5 @@
 {
-    "name": "frontend",
+    "name": "reactjs-handbook",
     "private": true,
     "version": "0.0.0",
     "type": "module",
@@ -8,7 +8,7 @@
         "build": "vite build",
         "lint": "eslint .",
         "preview": "vite preview",
-        "predeploy": "npm run build",
+        "predeploy": "npm run build && node scripts/create-pages-fallback.mjs",
         "deploy": "npx gh-pages -d dist -b gh-pages"
     },
     "dependencies": {
@@ -18,7 +18,7 @@
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-icons": "^5.5.0",
-        "react-router-dom": "^6.30.1",
+        "react-router-dom": "^7.18.5",
         "styled-components": "^6.1.19"
     },
     "devDependencies": {
